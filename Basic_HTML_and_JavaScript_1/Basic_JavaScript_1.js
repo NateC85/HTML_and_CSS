@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<body>
 	<script>
 		alert("Press if you dare!");
 	</script>
@@ -12,4 +13,5 @@
 	
 	}
 	</script>
+</body>
 </html>
