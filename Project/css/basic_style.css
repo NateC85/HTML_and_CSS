@@ -13,7 +13,7 @@ h1 {
     height: 450px;
     background-color: #faebd7;
     border: 2px solid black;
-    border-radius: 54;
+    border-radius: 5%;
 }
 
 /*-----------------------------------------------
@@ -27,7 +27,7 @@ h1 {
     height: 100px;
     margin: 5px;
     border: 1px solid black;
-    border-radius: 254;
+    border-radius: 25%;
     cursor: pointer;
     transition: transform .5s ease-in-out;
 }  
@@ -37,7 +37,7 @@ h1 {
 --------------------------------------------------*/
 .squares:nth-child(-n+4) p{
     font-family: "Helvetica Neue" , Helvetica, Arial, sans-serif;
-    font-size: 1.5cm;
+    font-size: 1.5em;
     font-weight: 900;
     text-align: center;
     margin: 0;
@@ -66,7 +66,7 @@ h1 {
 /*------------------------------------------------
      HOVER, TRANSLATE, 4 TRANSFORM EFFECTS
 --------------------------------------------------*/
-.container .squares:nth-child(-n+4) :hover {
+.container .squares:nth-child(-n+4):hover {
     background-image: url("../images/Icons/Icon_1.png");
     transform: scale(.5);
     animation-name: race;
