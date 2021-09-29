@@ -14,7 +14,7 @@ html {
 
 body {
     font-size: 14px;
-    margin: 0;
+    margin: 0%;
     font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
     line-height: 1.42857143;
     color: #333;
@@ -141,7 +141,7 @@ section {
     left: 0; */
     /* position: absolute; */ /* to the top edge of the screen */
     width: 100%;
-    position: absolute;
+    position: fixed;
     z-index: 100;
     /*background-color: rgba(255, 255, 255, 0.5);*/
 }
@@ -161,13 +161,13 @@ section {
     height: auto;
     padding-top: 350px; /* This is spacer before the Main title Logo */
     padding-bottom: 500px; /* This is the spacer after the Main title Logo */
-    color: #fff;
+    color: rgba(148, 5, 5, 0.733);
 }
 
 .head-main {
     text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.9);
     font-variant: small-caps;
-    color: #fff;
+    color: rgb(126, 3, 3);
     letter-spacing: 5pt;
     word-spacing: 21pt;
     font-size: 4.5em;
@@ -293,7 +293,6 @@ section {
 
 .terms {
     margin: 30px 1px 0 0;
-    margin-top: 13%;
     padding-left: 52px;
     font-size: 14px;
     line-height: 5px;
