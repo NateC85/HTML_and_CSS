@@ -14,7 +14,7 @@ html {
 
 body {
     font-size: 14px;
-    margin: 0%;
+    margin: 0;
     font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
     line-height: 1.42857143;
     color: #333;
@@ -116,7 +116,7 @@ section {
 .container:after,
 .navbar:after {
     clear: both;
-    display: table;
+    display:table;
     content: " ";
 }
 
@@ -137,9 +137,9 @@ section {
     max-height: 340px;
     margin: 0% auto;
     content: " ";
-    /* top: 0;
-    left: 0; */
-    /* position: absolute; */ /* to the top edge of the screen */
+    /*top: 0;
+    left: 0;*/ 
+    /*position: absolute; */ /* to the top edge of the screen */
     width: 100%;
     position: fixed;
     z-index: 100;
