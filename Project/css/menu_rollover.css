@@ -1,6 +1,6 @@
 
 body {
-    background-color: #184352;
+    background-color: #1c04f1;
 }
 
 .wrap {
@@ -10,7 +10,7 @@ body {
     width: 100%;
 }
 
-.menu-container{
+.menu-container {
     top: 0;
     left: 0;
     /* To the top edge of the screen */
