@@ -1,2 +1,3 @@
-# HTML_and_CSS_Course
-Projects and assignments for my HTML and CSS Course
+<h1>HTML and CSS Projects</h1>
+
+<p>This is a display of sample websites that i made using HTML and CSS.</p>
