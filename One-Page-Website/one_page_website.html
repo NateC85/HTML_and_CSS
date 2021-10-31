@@ -210,7 +210,147 @@
 			</div>
 		</section>
 		<!-- END CONTACT -->
+
+
+<!-- Images used to open the lightbox. -->
+<div class="row">
+	<div class="column">
+		<img src="images\kitchen_1.jfif" onclick="openModal();currentSlide(1)" class="hover-shadow">
+	</div>
+	<div class="column">
+		<img src="images\kitchen_2.jfif" onclick="openModal();currentSlide(2)" class="hover-shadow">
+	</div>
+	<div class="column">
+		<img src="images\kitchen_3.jfif" onclick="openModal();currentSlide(3)" class="hover-shadow">
+	</div><div class="column">
+		<img src="images\kitchen_4.jfif" onclick="openModal();currentSlide(4)" class="hover-shadow">
+	</div><div class="column">
+		<img src="images\kitchen_5.jfif" onclick="openModal();currentSlide(5)" class="hover-shadow">
+	</div>
+	<div class="column">
+		<img src="images\kitchen_6.jfif" onclick="openModal();currentSlide(6)" class="hover-shadow">
+	</div>
+	<div class="column">
+		<img src="images\kitchen_7.jfif" onclick="openModal();currentSlide(7)" class="hover-shadow">
+	</div><div class="column">
+		<img src="images\kitchen_8.jfif" onclick="openModal();currentSlide(8)" class="hover-shadow">
+	</div><div class="column">
+		<img src="images\kitchen_9.jfif" onclick="openModal();currentSlide(9)" class="hover-shadow">
+	</div><div class="column">
+		<img src="images\kitchen_10.jfif" onclick="openModal();currentSlide(10)" class="hover-shadow">
+	</div>
+</div>
+
+>!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+	<span class="close cursor" onclick="closeModal()">&times;</span>
+	<div class="modal-content">
+
+		<div class="mySlides">
+			<div class="numbertext">1 / 10</div>
+			<img src="./images/kitchen_1.jfif" style="width: 100%">
+		</div>
+
+
+		<div class="mySlides">
+			<div class="numbertext">2 / 10</div>
+			<img src="./images/kitchen_2.jfif" style="width: 100%">
+		</div>
+
+		<div class="mySlides">
+			<div class="numbertext">3 / 10</div>
+			<img src="./images/kitchen_3.jfif" style="width: 100%">
+		</div>
+
+		<div class="mySlides">
+			<div class="numbertext">4 / 10</div>
+			<img src="./images/kitchen_4.jfif" style="width: 100%">
+		</div>
+
+		<div class="mySlides">
+			<div class="numbertext">5 / 10</div>
+			<img src="./images/kitchen_5.jfif" style="width: 100%">
+		</div>
+
+		<div class="mySlides">
+			<div class="numbertext">6 / 10</div>
+			<img src="./images/kitchen_6.jfif" style="width: 100%">
+		</div>
+
+		<div class="mySlides">
+			<div class="numbertext">7 / 10</div>
+			<img src="./images/kitchen_7.jfif" style="width: 100%">
+		</div>
+
+		<div class="mySlides">
+			<div class="numbertext">8 / 10</div>
+			<img src="./images/kitchen_8.jfif" style="width: 100%">
+		</div>
+
+		<div class="mySlides">
+			<div class="numbertext">9 / 10</div>
+			<img src="./images/kitchen_9.jfif" style="width: 100%">
+		</div>
+
+		<div class="mySlides">
+			<div class="numbertext">10 / 10</div>
+			<img src="./images/kitchen_10.jfif" style="width: 100%">
+		</div>
 		
+		<!-- Next/Previous controls -->
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+		<!-- Caption text -->
+		<div class="caption-container">
+			<p id="caption"></p>
+		</div>
+
+		<!-- Thumbnail image controls -->
+		<div class="column">
+			<img class="demo" src="images\kitchen_1.jfif" onclick="currentSlide(1)" alt="Nature">
+		</div>
+
+		<div class="column">
+			<img class="demo" src="images\kitchen_2.jfif" onclick="currentSlide(2)" alt="Nature">
+		</div>
+
+		<div class="column">
+			<img class="demo" src="images\kitchen_3.jfif" onclick="currentSlide(3)" alt="Nature">
+		</div>
+
+		<div class="column">
+			<img class="demo" src="images\kitchen_4.jfif" onclick="currentSlide(4)" alt="Nature">
+		</div>
+
+		<div class="column">
+			<img class="demo" src="images\kitchen_5.jfif" onclick="currentSlide(5)" alt="Nature">
+		</div>
+
+		<div class="column">
+			<img class="demo" src="images\kitchen_6.jfif" onclick="currentSlide(6)" alt="Nature">
+		</div>
+
+		<div class="column">
+			<img class="demo" src="images\kitchen_7.jfif" onclick="currentSlide(7)" alt="Nature">
+		</div>
+
+		<div class="column">
+			<img class="demo" src="images\kitchen_8.jfif" onclick="currentSlide(8)" alt="Nature">
+		</div>
+
+		<div class="column">
+			<img class="demo" src="images\kitchen_9.jfif" onclick="currentSlide(9)" alt="Nature">
+		</div>
+
+		<div class="column">
+			<img class="demo" src="images\kitchen_10.jfif" onclick="currentSlide(10)" alt="Nature">
+		</div>
+	</div>
+</div>
+
+
+
 			<!-- FOOTER -->
 		<div id="footer">
 			Peachez Overnight Kitchen Cleaning &nbsp;|&nbsp; &copy; 2021
