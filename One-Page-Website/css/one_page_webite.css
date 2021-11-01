@@ -278,7 +278,7 @@ img.demo {
 }
 
 img.hover-shadow {
-    transition: 0.3ms;
+    transition: 0.3s;
 }
 
 .hover-shadow:hover {
