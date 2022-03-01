@@ -12,4 +12,4 @@ This page is an example home page for a Haunted house that is styled using CSS a
 
 ## Movie Theater Site
 
-This page is an example home page for a Movie theater that is styled using Bootstrap 4. It contains many Bootstrap components including but not limited to a navbar, jumbotron, form, cards, and dropdowns.
+This page is for a Movie theater site that is utilizing Bootstrap 4. It contains many Bootstrap components including but not limited to a navbar, jumbotron, form, cards, and dropdowns.
