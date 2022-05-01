@@ -16,17 +16,22 @@
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light bg-info">
-      
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
           <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item active">
-              <a class="nav-link text-light" href="#about">About</a>
-            </li>
-            <li class="nav-item active">
+           <li class="nav-item active">
               <a class="nav-link text-light" href="#showtimes">Showtimes</a>
             </li>
             <li class="nav-item active">
               <a class="nav-link text-light" href="#deals">Deals</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link text-light" href="#about">About</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link text-light" href="#">Contact</a>
             </li>
           </ul>
 
@@ -41,9 +46,8 @@
             </button>
 
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
+              <a class="dropdown-item" href="#">Create Account</a>
+              <a class="dropdown-item" href="#">Forgot Password</a>
             </div>
           </div>
 
@@ -59,31 +63,30 @@
         </div>
       </div>
 
-       <!-- showtimes -->
-      
-       <div class="card-group" id="showtimes">
-        <div class="card">
-          <img class="card-img-top" src="./Img/img_2.jfif" alt="Card image cap">
-          <div class="card-block">
-            <h5 class="card-title">I Know What You Did Last Summer</h5>
-            <p class="card-text">Four students try to conceal their responsibility for a fatal hit-and-run accident. One year later the four start receiving anonymous notes from a mystery figure who knows their secret and seeks revenge.</p>
-            <span class="badge badge-pill badge-success">12:00 p.m.</span>
-            <span class="badge badge-pill badge-success">1:30 p.m.</span>
-            <span class="badge badge-pill badge-success">3:00 p.m.</span>
-            <span class="badge badge-pill badge-success">5:30 p.m.</span>
-            <span class="badge badge-pill badge-success">7:00 p.m.</span>
-            <span class="badge badge-pill badge-success">9:30 p.m.</span>
-          </div>
-          <div class="card-footer">
-            <small class="text-muted">Last updated 3 minutes ago</small>
-          </div>
-        </div>
-      </div>
+          <!-- showtimes -->
+          
+          <div class="card-deck" id="showtimes">
+            <div class="card">
+              <img class="card-img-top" src="./Img/img_2.jfif" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">I Know What You Did Last Summer</h5>
+                <p class="card-text">Four students try to conceal their responsibility for a fatal hit-and-run accident. One year later the four start receiving anonymous notes from a mystery figure who knows their secret and seeks revenge.</p>
+                <span class="badge badge-pill badge-success">12:00 p.m.</span>
+                <span class="badge badge-pill badge-success">1:30 p.m.</span>
+                <span class="badge badge-pill badge-success">3:00 p.m.</span>
+                <span class="badge badge-pill badge-success">5:30 p.m.</span>
+                <span class="badge badge-pill badge-success">7:00 p.m.</span>
+                <span class="badge badge-pill badge-success">9:30 p.m.</span>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 minutes ago</small>
+              </div>
+            </div>
+          
 
-        <div class="card-group" id="showtimes">
           <div class="card">
             <img class="card-img-top" src="./Img/img_3.png" alt="Card image cap">
-            <div class="card-block">
+            <div class="card-body">
               <h5 class="card-title">Deadpool</h5>
               <p class="card-text">A wisecracking mercenary gets experimented on and becomes immortal but ugly, and sets out to track down the man who ruined his looks.</p>
               <span class="badge badge-pill badge-success">12:00 p.m.</span>
@@ -97,12 +100,11 @@
               <small class="text-muted">Last updated 3 minutes ago</small>
             </div>
           </div>
-        </div>
 
-        <div class="card-group" id="showtimes">
+      
           <div class="card">
             <img class="card-img-top" src="./Img/img_4.jfif" alt="Card image cap">
-            <div class="card-block">
+            <div class="card-body">
               <h5 class="card-title">Riddick</h5>
               <p class="card-text">Left for dead on a sun-scorched planet, Riddick finds himself up against an alien race of predators. Activating an emergency beacon alerts two ships: one carrying a new breed of mercenary, the other captained by a man from Riddick's past.</p>
               <span class="badge badge-pill badge-success">12:00 p.m.</span>
@@ -155,7 +157,7 @@
     <!--Jumbotron Heading -->
     <div class="jumbotron jumbotron-fluid bg-info mt-5 text-center">
       <div class="container">
-        <h1 class="display-4 hidden-sm-down" style="color:#fff;font-family:roboto;font-weight:900; text-transformation:uppercase;">
+        <h1 class="display-4 hidden-sm-down" style="color:#fff;font-family:roboto;font-weight:900;">
           Movie Deals</h1>
           <p class="lead">Check out our monthly deals...</p>
           <!-- Movie deals -->
